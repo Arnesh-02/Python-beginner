@@ -1,0 +1,6 @@
+print("Hello User!")
+print("Prg to calculate Wind Chill index")
+wind_spd=float(input("Enter wind speed in km/hr"))
+temp=float(input("Enter temperature in deg celcius"))
+chill_ind=(13.12)+(0.6215*temp)-(11.37*wind_spd**0.16)+(0.3965*temp*wind_spd**0.16)
+print("Wind index ",chill_ind)
